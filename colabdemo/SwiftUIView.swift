@@ -10,6 +10,8 @@ import SwiftUI
 struct SwiftUIView: View {
     var body: some View {
         Text("Why Hello")
+        Image(systemName: "circle")
+        
     }
 }
 
