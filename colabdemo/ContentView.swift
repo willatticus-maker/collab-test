@@ -11,7 +11,7 @@ import CoreData
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
-    @State private var items = ["apple", "banana", "cherry","pineapple", "stawberry"]
+    @State private var items = ["apple", "banana", "cherry","pineapple", "stawberry","pear"]
 
     var body: some View {
         NavigationView {
